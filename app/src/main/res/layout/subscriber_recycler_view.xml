@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/subscriber_list_item"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/design_default_color_on_primary"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/subscriberNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor= "@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="sdlkfjsdlkfjsdlfjklskdfjldksjf"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/subscriberEmailTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor= "@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="sdlkfjsdlkfjsdlfjklskdfjldksjf"
+            />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+</layout>
